@@ -27,7 +27,7 @@ const Navigation = () => {
     <nav className={`navigation ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo">
-          <span className="logo-three">three:</span>
+          <span className="logo-three">threes:</span>
           <span className="logo-subtitle">Marketing Digital</span>
         </div>
 

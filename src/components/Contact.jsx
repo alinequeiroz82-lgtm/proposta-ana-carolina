@@ -14,7 +14,7 @@ const Contact = () => {
         >
           <div className="vertical-bar"></div>
           <div className="logo-section">
-            <h2 className="logo-text">three:</h2>
+            <h2 className="logo-text">threes:</h2>
             <p className="logo-subtitle">Marketing Digital</p>
           </div>
           <h3 className="contact-slogan">

@@ -29,7 +29,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <img src="/images/002.webp" alt="Dra. Ana Carolina" />
+            <img src="/proposta-ana-carolina/images/ana-carolina.png" alt="Dra. Ana Carolina" />
           </motion.div>
         </div>
       </div>

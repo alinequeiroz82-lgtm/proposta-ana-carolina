@@ -11,7 +11,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="hero-logo">
-            <h3>three: | Marketing Digital</h3>
+            <h3>threes: | Marketing Digital</h3>
           </div>
           <h1 className="hero-title">
             Da Autenticidade à<br />
