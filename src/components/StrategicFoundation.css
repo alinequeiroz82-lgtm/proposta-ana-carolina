@@ -1,0 +1,79 @@
+.strategic-foundation {
+  min-height: 100vh;
+  background: var(--beige);
+  padding: 6rem 0;
+}
+
+.section-header {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: var(--navy-blue);
+}
+
+.section-title .subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.foundation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.foundation-card {
+  background: var(--white);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foundation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  background: var(--white);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: var(--navy-blue);
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+@media (max-width: 968px) {
+  .foundation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title .subtitle {
+    font-size: 1.5rem;
+  }
+}

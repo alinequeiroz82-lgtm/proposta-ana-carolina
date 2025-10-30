@@ -1,0 +1,50 @@
+.continuous-management {
+  min-height: 60vh;
+  background: var(--beige);
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.management-intro {
+  position: relative;
+  padding-left: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+}
+
+.management-title {
+  font-size: 4rem;
+  color: var(--navy-blue);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.management-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  text-align: right;
+}
+
+.management-text strong {
+  color: var(--navy-blue);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .management-intro {
+    margin-left: 0;
+  }
+
+  .management-title {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .management-text {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}

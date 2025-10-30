@@ -1,0 +1,102 @@
+.investment {
+  min-height: 100vh;
+  background: var(--beige);
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.investment-content {
+  position: relative;
+  padding-left: 2rem;
+  max-width: 800px;
+}
+
+.investment-header {
+  margin-bottom: 2rem;
+}
+
+.investment-title {
+  font-size: 3rem;
+  color: var(--navy-blue);
+  margin-bottom: 0.5rem;
+}
+
+.investment-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.investment-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin-bottom: 3rem;
+}
+
+.price-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.price-icon {
+  font-size: 4rem;
+  background: linear-gradient(135deg, #f4b942 0%, #f4d03f 100%);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(244, 185, 66, 0.3);
+}
+
+.price-content {
+  flex: 1;
+}
+
+.price-label {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.price-value {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--navy-blue);
+  background: var(--navy-blue);
+  color: var(--white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.price-note {
+  font-size: 1rem;
+  color: var(--navy-blue);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .investment-title {
+    font-size: 2.5rem;
+  }
+
+  .price-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .price-value {
+    font-size: 2.5rem;
+  }
+}
